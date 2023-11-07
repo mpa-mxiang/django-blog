@@ -1,0 +1,11 @@
+[MASTER]
+load-plugins = pylint_django
+
+[MESSAGES CONTROL]
+enable = R0201, C0114, C0115, C0116, W0511
+
+[pylint-messages]
+disable = too-few-public-methods, no-self-use, logging-fstring-interpolation
+
+[REPORTS]
+output-format = colorized
